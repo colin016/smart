@@ -1,0 +1,115 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+div#main_content {
+  text-align: center;
+  width: 1040px;
+  height: 538px;
+  /*background-color: #ccc;*/
+  margin-left: 250px;
+}
+
+#main_content h1#title {
+  font-family: "微软雅黑";
+  font-size: 32px;
+  letter-spacing: 26px;
+  color:#00d1e5;
+  margin-top: 30px;
+}
+
+div.input {
+  width: 1040px;
+  height:450px;
+  background-color: #d9dadb;
+  margin-bottom: 10px;
+  border-radius: 25px 25px 25px 25px ;
+  margin-top: 25px;
+}
+/*
+div.button {
+  width:1040px;
+  height:90px;
+  background-color: #d9dadb;
+  border-radius: 0 0 25px 25px ;
+}
+*/
+p.deploy {
+  font-family: "微软雅黑";
+  font-weight: 560;
+  font-size: 28px;
+  letter-spacing: 0.8em;
+  margin-right: 20px;
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+}
+/*
+p.third_name {
+  letter-spacing: 0.69em;
+}
+*/
+input#position,#contact_way,#device_name{
+  width: 220px;
+  height:22px;
+  border: 1.5px solid #000;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+div.zone_line {
+  position:relative;
+  top:2em;
+}
+
+div.first_line {
+  position:relative;
+  top:3.6em;
+}
+
+div.second_line {
+  position:relative;
+  top:5.2em;
+}
+
+div.third_line {
+  position:relative;
+  top:6.8em;
+}
+
+div.four_line {
+  position:relative;
+  top:8.3em;
+}
+
+div.five_line {
+  position:relative;
+  top:9.9em;
+}
+
+input.bu {
+  color: #000;
+  letter-spacing: 0.3em;
+  font-weight: 550;
+  font-size: 24px;
+  font-family: "微软雅黑";
+  background-color: #7d7d7d;
+  width:125px;
+  height:40px;
+  border:1.5px solid #000;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+t{
+  margin-left: 15%;
+  font-size: 24px;
+}
+/*
+input.left {
+  margin-right: 4em;
+}
+*/
+input.right {
+  margin-left: 2em;
+}

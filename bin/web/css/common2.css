@@ -1,0 +1,33 @@
+h1,h2,h3,h4,h5,h6,div,form,th,tr,div,button,submit{
+	margin:0;
+	padding:0;
+	}
+a{
+	text-decoration:none;
+	}
+label{
+	padding-left:0.5em;
+	line-height:35px;
+	}
+table{
+	margin-left:90px;
+	font-size:20px;
+	font-family:"微软雅黑";
+	margin-top:14px;
+	}
+td{
+	font-family:"微软雅黑";
+	font-size:20px;
+	letter-spacing:2px;
+	padding-left: 10em;
+	}
+th{
+	font-size:20px;
+	}
+div.line{
+	font-family:"微软雅黑";
+	font-size:20px;
+	font-weight:bold;
+	/*margin-left:6em;*/
+	margin-top:1.2em;
+	}

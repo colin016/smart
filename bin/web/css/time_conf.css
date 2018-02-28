@@ -1,0 +1,169 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+div#main_content {
+  text-align: center;
+  width: 1040px;
+  height: 538px;
+  /*background-color: #ccc;*/
+  margin-left: 250px;
+}
+
+#main_content h1#title {
+  font-family: "微软雅黑";
+  font-size: 32px;
+  letter-spacing: 26px;
+  color:#00d1e5;
+  margin-top: 30px;
+}
+
+div.input {
+  width: 1040px;
+  height:360px;
+  background-color: #d9dadb;
+  margin-bottom: 10px;
+  border-radius: 25px 25px 0 0 ;
+  margin-top: 25px;
+  position: relative;
+}
+
+div.button {
+  width:1040px;
+  height:75px;
+  background-color: #d9dadb;
+  border-radius: 0 0 25px 25px ;
+}
+
+p.deploy {
+  font-family: "微软雅黑";
+  font-weight: 560;
+  font-size: 28px;
+  letter-spacing: 0.6em;
+  /*margin-right: 30px;*/
+  display: inline-block;
+  text-align: right;
+  width: 555px;
+}
+
+#checkbox {
+  width: 60px;
+}
+
+.set_named {
+  font-family: "微软雅黑";
+  font-weight: 560;
+  font-size: 24px;;
+  letter-spacing: 0.3em;
+  /*margin-right: 30px;*/
+  display: inline-block;
+  text-align: right;
+  width: 170px;
+  margin-right: 2em;
+}
+
+select {
+  width: 230px;
+  height: 26px;
+}
+
+div.zone_line {
+  position: absolute;
+  top: 3em;
+  left: 5em;
+  /*margin-top: 2em;*/
+}
+
+div.line_first {
+  position: absolute;
+  top: 7.5em;
+  left: 18em;
+  /*margin-top: 2em;*/
+}
+
+div.line_second {
+  position: absolute;
+  top: 11.5em;
+  left: 18em;
+  /*margin-top: 2em;*/
+}
+
+div.line_third {
+  position: absolute;
+  top: 15.5em;
+  left: 18em;
+  /*margin-top: 2em;*/
+}
+
+p.third_name {
+  letter-spacing: 0.69em;
+}
+
+input#position,#contact_way,#device_name{
+  width: 220px;
+  height:22px;
+  border: 1.5px solid #000;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+div.first_line {
+  position:relative;
+  top:5em;
+}
+
+div.second_line {
+  position:relative;
+  top:8em;
+}
+
+div.third_line {
+  position:relative;
+  top:11em;
+}
+
+input.bu {
+  color: #000;
+  letter-spacing: 0.3em;
+  font-weight: 550;
+  font-size: 24px;
+  font-family: "微软雅黑";
+  background-color: #7d7d7d;
+  width:125px;
+  height:40px;
+  border:1.5px solid #000;
+  border-radius: 10px;
+  margin-top: 19px;
+}
+
+input.left {
+  margin-right: 4em;
+}
+
+input.right {
+  margin-left: 2em;
+}
+
+#pres_conf {
+  color: #000;
+  letter-spacing: 0.1em;
+  font-weight: 550;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  background-color: #00d1e5;
+  width:130px;
+  height:40px;
+  border:1.5px solid #2196f3;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+input.time_set {
+  width: 50px;
+}
+
+input.tserver {
+  width: 230px;
+  height: 21px;
+}

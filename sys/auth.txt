@@ -1,0 +1,9 @@
+{
+  "relaters":
+  [
+    {"id":0,"username":"11","password":"11","regtime":1311545646,"right":0,"status":0},
+    {"id":0,"username":"Job123456","password":"1234560","regtime":1311545646,"right":0,"status":0},
+    {"id":0,"username":"Moon","password":"hellomoon","regtime":211464646,"right":0,"status":0},
+    {"id":0,"username":"yyyy","password":"13456","regtime":211464646,"right":0,"status":0}
+  ]
+}

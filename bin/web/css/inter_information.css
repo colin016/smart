@@ -1,0 +1,73 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+div#main_content {
+  text-align: center;
+  width: 1040px;
+  height: 538px;
+  /*background-color: #ccc;*/
+  margin-left: 250px;
+
+}
+
+#main_content h1#title {
+  font-family: "微软雅黑";
+  font-size: 32px;
+  letter-spacing: 26px;
+  color:#00d1e5;
+  margin-top: 30px;
+}
+
+div.input {
+  width: 1040px;
+  height:460px;
+  background-color: #d9dadb;
+  border-radius: 25px 25px 25px 25px ;
+  margin-top: 25px;
+}
+
+table {
+  font-family: "微软雅黑";
+/*  font-weight: 560;*/
+  font-size: 22px;
+/*  letter-spacing: 0.6em;*/
+/*  margin-right: 30px;*/
+/*  display: inline-block;*/
+  text-align: center;
+  width: 100%;
+}
+table td{
+  padding-top: 6%;
+  padding-bottom: 6%;
+  font-size: 28px;
+  text-align: left;
+  border-top: 0;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  border-left: 0;
+/*  text-align: center;*/
+}
+
+
+input#position,#contact_way,#device_name{
+  width: 220px;
+  height:22px;
+  border: 1.5px solid #000;
+  border-radius: 5px;
+  margin-left: 20px;
+  z-index: 1;
+}
+
+input.left {
+  margin-right: 4em;
+}
+
+input.right {
+  margin-left: 2em;
+}
+
+td{
+  padding-left: 13%;
+}

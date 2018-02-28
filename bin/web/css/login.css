@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+h1.title {
+  text-align: center;
+  font-size: 28px;
+  font-family: "微软雅黑";
+  font-weight: 600;
+  letter-spacing: 0.4em;
+  color:#fff;
+  position: relative;
+  top:3em;
+}
+
+input.bu {
+  color: #fff;
+  font-size: 20px;
+  font-family: "微软雅黑";
+  background-color: #6dbef5;
+  width:200px;
+  height:30px;
+  border-radius: 10px;
+  word-spacing: 30px;
+  /*padding:0 20px;*/
+}
+
+/*input.left {
+  margin-right: 2em;
+}
+
+input.right {
+  margin-left: 2em;
+}
+*/
+
+div.content {
+  background-image: url(../img/blank.jpg);
+  background-repeat: no-repeat;
+  height:394px;
+  width: 400px;
+  margin: 7.5em auto;
+  text-align: center;
+}
+
+p.name,p.pass {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "微软雅黑";
+  display: inline-block;
+  text-align: right;
+  width: 30%;
+}
+
+input#username,#password {
+  width: 220px;
+  height:22px;
+  border: 1.5px solid #000;
+  border-radius: 5px;
+}
+
+div.first_line {
+  position:relative;
+  top:8em;
+}
+
+div.second_line {
+  position:relative;
+  top:9.5em;
+}
+
+div.third_line {
+  position:relative;
+  top:13.5em;
+}

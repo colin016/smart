@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>基本配置-网络配置界面</title>
+    <link href="css/inter configuration.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/inter_conf.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      $(document).ready(function(){
+    	$(".menu_son li").click(function(){
+        $(".menu_son li").children().find("i").css("background-image","url('img/tran.png')");
+        changeNode($(this).children().find("i"));
+      });
+      function changeNode(mainNode){
+        if(mainNode){
+          if(mainNode.css("background-image").indexOf("img/tran.png")>=0){
+            mainNode.css("background-image","url('img/tran1.png')");
+          }else {
+            mainNode.css("background-image","url('img/tran.png')");
+          }
+        }
+      }
+    })
+    </script>
+
+    <div class="header">
+      <p class="logo">10518</p>
+      <p class="header_name">监控管理系统</p>
+      <a href="system information.html" class="link_home"><img src="img/home.png" class="icon"/></a>
+      <a href="login.html" class="link_out"><img src="img/out.png" class="icon"/></a>
+    </div>
+    <div class="index_left">
+      <ul>
+        <li class="menu one">状态信息
+          <ul class="menu_son">
+            <li><a href="system information.html">系统信息<i></i></a></li>
+            <li><a href="inter information.html">网络信息<i></i></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <img src="img/icon.jpg" class="dot">
+          </ul>
+        </li>
+        <li class="menu two">基本配置
+          <ul class="menu_son">
+            <li><a href="basic configuration-inter configuration.html">网络配置<i></i></a></li>
+            <li><a href="basic configuration-time configuration.html">时间配置<i></i></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <img src="img/icon.jpg" class="dot">
+          </ul>
+        </li>
+        <li class="menu three">设备管理
+          <ul class="menu_son">
+            <li><a href="device management-list.html">设备列表<i></i></a></li>
+            <li><a href="device management-add.html">媒介列表<i></i></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <img src="img/icon.jpg" class="dot">
+          </ul>
+        </li>
+        <li class="menu four">监控管理
+          <ul class="menu_son">
+            <li><a href="monitor_manager.html">监控库管理<i></i></a></li>
+            <li><a href="supervision_task.html" class="watch">监控任务管理<i></i></a></li>
+            <li><a href="alarm_messages.html" class="watch">报警消息管理<i></i></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <img src="img/icon.jpg" class="dot">
+          </ul>
+        </li>
+        <li class="menu five">云台管理
+          <ul class="menu_son">
+            <li><a href="aerial function-logon.html">登录管理<i></i></a></li>
+            <li><a href="terrace_synchronization.html">云台同步<i></i></a></li>
+            <li><a href="user_set.html">用户设置<i></i></a></li>
+            <li><a href="register_exit.html">登录登出<i></i></a></li>
+            <li><a href="terrace_information.html">云台信息<i></i></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <img src="img/icon.jpg" class="dot">
+          </ul>
+        </li>
+        <li class="menu six">联系人管理
+          <ul class="menu_son">
+            <li><a href="contact management-look.html">查看关联人<i></i></a></li>
+            <li><a href="affiliated_person_add.html">添加关联人<i></i></a></li>
+            <li><a href="set_relation.html" class="rela">关联设置<i></i></a></li>
+            <li><a href="affiliated_person_check.html">审核关联人<i></i></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <img src="img/icon.jpg" class="dot">
+          </ul>
+        </li>
+        <li class="menu seven">系统管理
+          <ul class="menu_son">
+            <li><a href="view_log.html">查看日志<i></i></a></li>
+            <li><a href="system_deploy.html">系统配置<i></i></a></li>
+            <li><a href="user_management.html">用户管理<i></i></a></li>
+            <li><a href="uploading_plugins.html">上传插件<i></i></a></li>
+            <li><a href="backup_restore.html">备份恢复<i></i></a></li>
+            <li><a href="software update.html">软件更新<i></i></a></li>
+            <li><a href="local_area_network.html" class="web">局域网发现管理<i></i></a></li>
+            <li><a href="reboot_device.html">设备重启<i></i></a></li>
+            <img src="img/icon.jpg" class="dot">
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+
+
+<!-- 主要内容 -->
+    <div id="main_content">
+      <h1 id="title">网络配置</h1>
+      <div class="main_content">
+        <form id="inter_conf"  method=POST>
+          <div class="input">
+            <div class="zone_line">
+              <p class="zone_name deploy">连接类型：</p>
+              <select name="connection_type" id="connection_type">
+                  <option value="0">动态IP</option>
+                  <option value="1">静态IP</option>
+                  <option value="3">PPPoE</option>
+              </select><br />
+            </div>
+            <div class="first_line">
+              <p class="first_name deploy">网络地址：</p>
+              <input type="text" value="<%set_net();%>" id="net_add" name="net_add"/>
+            </div>
+            <div class="second_line">
+              <p class="second_name deploy">子网掩码：</p>
+              <input type="text" value="<%set_net1();%>" id="subnet_mask" name="subnet_mask"/>
+            </div>
+            <div class="third_line">
+              <p class="third_name deploy">默认网关：</p>
+              <input type="text" value="<%set_net2();%>" id="default_gateway" name="default_gateway"/>
+            </div>
+            <div class="four_line">
+              <p class="third_name deploy">主 D N S：</p>
+              <input type="text" value="<%set_net3();%>" id="main_dns" name="main_dns"/>
+            </div>
+            <div class="five_line">
+              <p class="third_name deploy">从 D N S：</p>
+              <input type="text" value="<%set_net4();%>" id="other_dns" name="other_dns"/>
+            </div>
+          </div>
+          <div class="button">
+            <p>
+            <!-- <t><input type="submit" value="恢复出厂配置" onclick="" name="ini_conf" id="ini_conf" class="bu left"/>  </t> -->
+            <t><input type="submit" value="保存当前配置" onclick="" name="pres_conf" id="pres_conf" class="bu rigth"/> </t>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

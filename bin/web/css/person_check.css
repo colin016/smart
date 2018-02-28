@@ -1,0 +1,167 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+body {
+  overflow: hidden;
+}
+
+div#main_content {
+  width: 1040px;
+  height: 538px;
+  /*background-color: #ccc;*/
+  margin-left: 250px;
+}
+
+#main_content h1#title {
+  text-align: center;
+  font-family: "微软雅黑";
+  font-size: 32px;
+  letter-spacing: 26px;
+  color:#00d1e5;
+  margin-top: 30px;
+}
+
+div.main_content {
+  background-color: #d9dadb;
+  border-radius: 25px 25px 25px 25px;
+  height: 445px;
+  margin-top: 25px;
+}
+
+
+input.su {
+  color: #000;
+  letter-spacing: 0.3em;
+  font-weight: 550;
+  font-size: 21px;
+  font-family: "微软雅黑";
+  background-color: #7d7d7d;
+  width:100px;
+  height:27px;
+  border:1.5px solid #000;
+  border-radius: 6px;
+  letter-spacing: 0.7em;
+}
+
+/*
+全选按钮
+*/
+.allChecked{
+	width:30px;
+	height:20px;
+	background-color:#5bc0de;
+	border:none;
+	border-radius:3px;
+	color:#FFF;
+	font-size:10px;
+}
+#checkStart{
+	border:none;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:8px;
+	padding-right:8px;
+	border-radius:3px;
+	border:1px ridge #CCC;
+	color:#666;
+	}
+
+  /*表格*/
+.tableScrollBox {
+    width: 100%;
+    height: 389px;
+}
+
+div.list_content {
+  width:1000px;
+  display: inline-block;
+  margin-left: 1em;
+  /*margin-top: 2em;*/
+  height: 380px;
+}
+
+form#de_list {
+  width: 910px;
+  /*position: fixed;*/
+}
+
+div.table_ma_con {
+  margin-top: 30px;
+  overflow: scroll;
+  overflow-x: hidden;
+  border: 1px solid #EEE;
+  height: 360px;
+  width: 1000px;
+}
+
+/*table.tableStyle1,.tableStyle2 {
+  margin: 0 auto;
+}*/
+
+th.ch_box {
+  width:15px;
+}
+
+table.tableStyle1 {
+  position: fixed;
+  margin: 0 auto;
+  width: 982px;
+  height: 45px;
+}
+
+table.tableStyle1 th {
+  width: 60px;
+}
+
+table#dev_list_bo{
+  /*position: fixed;*/
+  width: 982px;
+  /*margin-top: 50px;*/
+  /*height: 330px;*/
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+table#dev_list_bo td {
+  overflow-y: hidden;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+}
+
+table#dev_list_bo tr {
+  height: 30px;
+}
+
+/*两个功能按钮*/
+div#two_button {
+  margin-top: 10px;
+  margin-left: 30em;
+}
+
+input.button_right {
+  width: 95px;
+  height: 30px;
+  font-size:18px;
+  letter-spacing: 0.3em;
+  background: #4dd0e1  ;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 500;
+  margin-right: 5em;
+}
+
+input.button_left{
+  width: 95px;
+  height: 30px;
+  font-size:18px;
+  letter-spacing: 0.3em;
+  background: #4dd0e1  ;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 500;
+  margin-right: 5em;
+  margin-left: -70px;
+}

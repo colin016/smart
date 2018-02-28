@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>基本配置-时间配置界面</title>
+    <link href="css/time_conf.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/time_conf.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      $(document).ready(function(){
+    	$(".menu_son li").click(function(){
+        $(".menu_son li").children().find("i").css("background-image","url('img/tran.png')");
+        changeNode($(this).children().find("i"));
+      });
+      function changeNode(mainNode){
+        if(mainNode){
+          if(mainNode.css("background-image").indexOf("img/tran.png")>=0){
+            mainNode.css("background-image","url('img/tran1.png')");
+          }else {
+            mainNode.css("background-image","url('img/tran.png')");
+          }
+        }
+      }
+    })
+    </script>
+
+    <div class="header">
+      <p class="logo">10518</p>
+      <p class="header_name">监控管理系统</p>
+      <a href="system information.html" class="link_home"><img src="img/home.png" class="icon"/></a>
+      <a href="login.html" class="link_out"><img src="img/out.png" class="icon"/></a>
+    </div>
+    <div class="index_left">
+      <ul>
+        <li class="menu one">状态信息
+          <ul class="menu_son">
+            <li><a href="system information.html">系统信息<i></i></a></li>
+            <li><a href="inter information.html">网络信息<i></i></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <img src="img/icon.jpg" class="dot">
+          </ul>
+        </li>
+        <li class="menu two">基本配置
+          <ul class="menu_son">
+            <li><a href="basic configuration-inter configuration.html">网络配置<i></i></a></li>
+            <li><a href="basic configuration-time configuration.html">时间配置<i></i></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <img src="img/icon.jpg" class="dot">
+          </ul>
+        </li>
+        <li class="menu three">设备管理
+          <ul class="menu_son">
+            <li><a href="device management-list.html">设备列表<i></i></a></li>
+            <li><a href="device management-add.html">媒介列表<i></i></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <img src="img/icon.jpg" class="dot">
+          </ul>
+        </li>
+        <li class="menu four">监控管理
+          <ul class="menu_son">
+            <li><a href="monitor_manager.html">监控库管理<i></i></a></li>
+            <li><a href="supervision_task.html" class="watch">监控任务管理<i></i></a></li>
+            <li><a href="alarm_messages.html" class="watch">报警消息管理<i></i></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <img src="img/icon.jpg" class="dot">
+          </ul>
+        </li>
+        <li class="menu five">云台管理
+          <ul class="menu_son">
+            <li><a href="aerial function-logon.html">登录管理<i></i></a></li>
+            <li><a href="terrace_synchronization.html">云台同步<i></i></a></li>
+            <li><a href="user_set.html">用户设置<i></i></a></li>
+            <li><a href="register_exit.html">登录登出<i></i></a></li>
+            <li><a href="terrace_information.html">云台信息<i></i></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <img src="img/icon.jpg" class="dot">
+          </ul>
+        </li>
+        <li class="menu six">联系人管理
+          <ul class="menu_son">
+            <li><a href="contact management-look.html">查看关联人<i></i></a></li>
+            <li><a href="affiliated_person_add.html">添加关联人<i></i></a></li>
+            <li><a href="set_relation.html" class="rela">关联设置<i></i></a></li>
+            <li><a href="affiliated_person_check.html">审核关联人<i></i></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <img src="img/icon.jpg" class="dot">
+          </ul>
+        </li>
+        <li class="menu seven">系统管理
+          <ul class="menu_son">
+            <li><a href="view_log.html">查看日志<i></i></a></li>
+            <li><a href="system_deploy.html">系统配置<i></i></a></li>
+            <li><a href="user_management.html">用户管理<i></i></a></li>
+            <li><a href="uploading_plugins.html">上传插件<i></i></a></li>
+            <li><a href="backup_restore.html">备份恢复<i></i></a></li>
+            <li><a href="software update.html">软件更新<i></i></a></li>
+            <li><a href="local_area_network.html" class="web">局域网发现管理<i></i></a></li>
+            <li><a href="reboot_device.html">设备重启<i></i></a></li>
+            <img src="img/icon.jpg" class="dot">
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+
+
+<!-- 主要内容 -->
+    <div id="main_content">
+      <h1 id="title">时间配置</h1>
+      <div class="main_content">
+        <form id="t_conf" method=POST>
+          <div class="input">
+            <div class="zone_line">
+              <p class="zone_name deploy">时间同步客户端：</p>
+              <input type="checkbox" name="checkbox" value="" id="checkbox">启用
+            </div>
+            <div class="line_first">
+                <label class="set_named">时间设置:</label>
+                <!-- <select name="t_set" id="t_set">
+                    <option value="0">00:00-02:00</option>
+                    <option value="1">02:00-04:00</option>
+                </select><br /> -->
+                <input type="text" class="time_set" name="time_set1" id="time_set1">
+                <span class="hours">时</span>
+                <input type="text" class="time_set" name="time_set2" id="time_set2">
+                <span class="hours">分</span>
+                <input type="text" class="time_set" name="time_set3" id="time_set3">
+                <span class="hours">秒</span>
+              </div>
+            <div class="line_second">
+                <label class="set_named">所在时区:</label>
+                <select name="timezone" id="timezone">
+                    <option value="0">(GTM-12:00)埃尼威托克，夸贾林岛</option>
+                    <option value="1">(GTM-11:00)中途岛，萨摩亚群岛</option>
+                    <option value="2">(GTM-10:00)夏威夷</option>
+                    <option value="3">(GTM-09:00)阿拉斯加</option>
+                    <option value="4">(GTM-08:00)太平洋时间（美国和加拿大）；蒂华</option>
+                    <option value="5">(GTM-07:00)山地时间（美国和加拿大）；利亚桑那</option>
+                    <option value="6">(GTM-06:00)中部时间（美国和加拿大）；中美洲，墨西哥城</option>
+                    <option value="7">(GTM-05:00)东部时间（美国和加拿大）；波哥达，利马</option>
+                    <option value="8">(GTM-04:00)大西洋时间（加拿大）；加拉加斯，圣地亚哥</option>
+                    <option value="9">(GTM-03:30)纽芬兰</option>
+                    <option value="10">(GTM-03:00)巴西利亚，布宜诺斯艾利斯，乔治敦，格陵兰</option>
+                    <option value="11">(GTM-02:00)中大西洋</option>
+                    <option value="12">(GTM-01:00)佛得角群岛，亚速尔群岛</option>
+                    <option value="13">(GTM)格林威治平时；都柏林，爱丁堡，伦敦，里斯本</option>
+                    <option value="14">(GTM+01:00)阿姆斯特丹，柏林，罗马，斯德哥尔摩，巴黎</option>
+                    <option value="15">(GTM+02:00)开罗，雅典，伊斯坦布尔，明斯克</option>
+                    <option value="16">(GTM+03:00)巴格达，科威特，利雅得，莫斯科，圣彼得堡</option>
+                    <option value="17">(GTM+03:30)德黑兰</option>
+                    <option value="18">(GTM+04:00)阿布扎比，马斯喀特，巴库，第比利斯，埃里温</option>
+                    <option value="19">(GTM+04.30)喀布尔</option>
+                    <option value="20">(GTM+05:00)叶卡捷琳堡，伊斯兰堡，卡拉奇，塔什干</option>
+                    <option value="21">(GTM+05:30)马德拉斯，加尔各答，孟买，新德里</option>
+                    <option value="22">(GTM+05:45)加德满都</option>
+                    <option value="23">(GTM+06:00)阿拉木图，新西伯利亚，阿斯塔纳，达卡</option>
+                    <option value="24">(GTM+06:30)仰光</option>
+                    <option value="25">(GTM+07:00)曼谷，雅加达，河内</option>
+                    <option value="26">(GTM+08:00)北京，重庆，乌鲁木齐，香港特别行政区，台北</option>
+                    <option value="27">(GTM+09:00)东京，大阪，札幌，汉城，雅库茨克</option>
+                    <option value="28">(GTM+09:30)阿德莱德</option>
+                    <option value="29">(GTM+10:00)布里斯班，关岛，堪培拉，墨尔本，悉尼</option>
+                    <option value="30">(GTM+11:00)马加丹，索罗门群岛，新喀里多尼亚</option>
+                    <option value="31">(GTM+12:00)富士，堪察加半岛，马绍尔群岛，惠灵顿</option>
+                    <option value="32">(GTM+13:00)努库阿洛法</option>
+                </select><br />
+              </div>
+            <div class="line_third">
+                <label class="set_named">时间服务器:</label>
+                <input type="text" value="<%set_t();%>" class="tserver" name="tserver" id="tserver">
+              </div>
+          </div>
+          <div class="button">
+            <input type="button" value="保存当前配置" onclick="" class="bu rigth" id="pres_conf"/>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

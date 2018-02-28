@@ -1,0 +1,196 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+div#main_content {
+  width: 1040px;
+  height: 538px;
+  /*background-color: #ccc;*/
+  margin-left: 250px;
+}
+
+#main_content h1#title {
+  text-align: center;
+  font-family: "微软雅黑";
+  font-size: 32px;
+  letter-spacing: 26px;
+  color:#00d1e5;
+  margin-top: 30px;
+}
+
+div.main_content {
+  background-color: #d9dadb;
+  border-radius: 25px 25px 25px 25px;
+  height: 445px;
+  margin-top: 25px;
+}
+
+div.info_content {
+  margin-left: 5em;
+  width:887px;
+  height: 343px;
+  position: relative;
+}
+
+div#info_content {
+    /*margin-top: 20px;*/
+}
+
+div#server {
+  width: 887px;
+  height: 168px;
+  background: #fff;
+  /*margin-top: 10px;*/
+  margin-bottom: 8px;
+  position: absolute;
+  top:20px;
+}
+
+div#password_change {
+  width: 887px;
+  height: 168px;
+  background: #fff;
+  position: relative;
+  top: 12.5em;
+}
+
+input.input {
+  width: 210px;
+  height: 22px;
+}
+
+div.line {
+  position: relative;
+  margin-bottom: 2em;
+}
+
+div.line p {
+  display: inline-block;
+  text-align: right;
+  width: 200px;
+  font-size: 23px;
+  font-family: "微软雅黑";
+  margin-right: 3em;
+  margin-left: 8em;
+}
+
+p#ip {
+  letter-spacing: 0.3em;
+}
+
+p#port {
+  letter-spacing: 0.1em;
+}
+
+div.first_line {
+  padding-top: 2em;
+}
+
+span.choice {
+  display: inline-block;
+  text-align: right;
+  width: 200px;
+  font-size: 23px;
+  font-family: "微软雅黑";
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+span.anonymity {
+  letter-spacing: 0.32em;
+}
+
+span#default {
+  font-size: 23px;
+  font-family: "微软雅黑";
+  margin-right: 5em;
+  letter-spacing: 1em;
+}
+
+input#save,#exit {
+  /*display: inline-block;*/
+  font-size: 18px;
+  font-family: "微软雅黑";
+  letter-spacing: 0.5em;
+  width: 80px;
+  height: 24px;
+  margin-right: 5em;
+  background: #90caf9  ;
+  border: 1px solid #2196f3 ;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  margin-top: -10px;
+}
+
+input#save {
+  margin-left: 20em;
+}
+
+input#radio_input {
+  margin-right: 3em;
+  margin-left: 19em;
+}
+
+div#submit {
+  margin-top: 1.5em;
+}
+
+h2#pass_p{
+  display: inline-block;
+  position: absolute;
+  top:30px;
+  left: 5em;
+  width:26px;
+  font-size: 20px;
+  font-family: "微软雅黑";
+  font-weight: 550;
+}
+
+div.third_line,.fourth_line,.fifth_line {
+  /*display: inline-block;*/
+  width:770px;
+  /*margin-left: 12em;*/
+  /*margin-bottom: 1em;*/
+  position: absolute;
+  left: 12em;
+}
+
+div.third_line {
+  top:2em;
+}
+
+div.fourth_line {
+  top:4.5em;
+}
+
+div.fifth_line {
+  top:7em;
+}
+
+div#change_content {
+  position: relative;
+}
+
+div.third_line span,.fourth_line span,.fifth_line span {
+  letter-spacing: 0.3em;
+  display: inline-block;
+  text-align: right;
+  width: 150px;
+  font-size: 23px;
+  font-family: "微软雅黑";
+  margin-right: 3em;
+  margin-left: 2em;
+}
+
+label {
+  font-size: 22px;
+  font-family: "微软雅黑";
+  margin-right: 2em;
+}
+
+div#log_set {
+  margin-top: 5px;
+  margin-left: 15em;
+}

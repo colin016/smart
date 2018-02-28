@@ -1,0 +1,45 @@
+
+.container{
+	height:440px;
+	width:930px;
+	background:#dcdbd7;
+	margin:0 auto;
+	margin-top:1.2em;
+	border-radius:15px;
+	}
+.name,.key{
+	text-align:center;
+	line-height:60px;
+	}
+.namebackground,.keybackground{
+	height:60px;
+	width:840px;
+	display: inline-block;
+	background: #FFF;
+	margin-top:0.9em;
+	margin-left:6.5em;
+	}
+.submit{
+	color: #000;
+  letter-spacing: 0.1em;
+  font-weight: 550;
+  background-color: #00d1e5;
+  border:1.5px solid #2196f3;
+  border-radius: 10px;
+	font-family: "微软雅黑";
+	float: left;
+	padding-left:1.5em;
+	margin-left:15em;
+	margin-top:1.1em;
+	width:104px;
+	height:34px;
+	letter-spacing:20px;
+	font-size:18px;
+	}
+.biggestnumber{
+	font-size:18px;
+	}
+
+th{
+	padding-left: 1.5em;
+}

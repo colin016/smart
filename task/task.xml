@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<task number="2"> 
+
+    <task1 id="1" name="图片采集">
+        <tasktip>图片采集并分析</tasktip>
+        <level>5</level>
+        <type>2</type>
+        <intelval>10000</intelval>
+        <index>0</index>
+        <ctlinf number="2">
+            <ctlinf1>
+                <index>0</index>
+                <type>6</type>
+                <devno>2</devno>
+                <sign>5</sign>
+                <code>4</code>
+                <len>1</len>
+            </ctlinf1>
+
+            <ctlinf2>
+                <index>1</index>
+                <type>0</type>
+                <filename>1-1.xml</filename>
+            </ctlinf2>
+        </ctlinf>
+    </task1>
+
+    <task2 id="2" name="视频采集">
+        <tasktip>视频采集并分析</tasktip>
+        <level>2</level>
+        <type>1</type>
+        <intelval>100000</intelval>
+        <index>1</index>
+        <ctlinf number="1">
+            <ctlinf1>
+                <index>0</index>
+                <type>7</type>
+                <devno>2</devno>
+                <sign>5</sign>
+                <code>4</code>
+                <len>1</len>
+            </ctlinf1>
+
+            <ctlinf2>
+                <index>1</index>
+                <type>0</type>
+                <filename>2-1.xml</filename>
+            </ctlinf2>
+        </ctlinf>
+    </task2>
+
+</task>

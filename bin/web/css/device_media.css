@@ -1,0 +1,300 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+div#main_content {
+  width: 1040px;
+  height: 538px;
+  /*background-color: #ccc;*/
+  margin-left: 270px;
+}
+
+#main_content h1#title {
+  text-align: center;
+  font-family: "微软雅黑";
+  font-size: 32px;
+  letter-spacing: 26px;
+  color:#00d1e5;
+  margin-top: 30px;
+}
+
+div.main_content {
+  background-color: #d9dadb;
+  border-radius: 25px 25px 25px 25px;
+  height: 445px;
+  margin-top: 25px;
+}
+
+
+table#table_id_example {
+  text-align: center;
+  width:800px;
+  background: #fff;
+}
+
+div.list_content {
+  width:800px;
+  display: inline-block;
+  margin-left: 5em;
+  /*margin-top: 2em;*/
+  height: 337px;
+}
+
+
+div.network_left {
+  text-align: center;
+  width:26px;
+  height: 140px;
+  font-size: 26px;
+  font-family: "微软雅黑";
+  float: left;
+  font-weight: 600;
+  margin-left: 3em;
+  margin-top: 3em;
+}
+
+
+.two-box{
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 2%;
+}
+/*
+table{
+  height: 100%;
+  width: 60%;
+  position: absolute;
+  border-radius: 5px;
+  background-color: #f7f7ef;
+}
+*/
+table,td,th
+  {
+  text-align:center;
+  }
+th
+  {
+  height:50px;
+  width: 100px;
+  }
+  .three-box{
+    margin-top:43%;
+    margin-left: 4%;
+    font-size: 0.9em;
+  }
+  t{
+    padding-left: 5%;
+  }
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+
+ .carousel,.carousel-inner{
+ height: auto;
+ }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+ .carousel,.carousel-inner{
+ height: 500px;
+}
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+ .carousel,.carousel-inner{
+ height: 500px;
+ }
+}
+
+#add_name {
+  font-family: "微软雅黑";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: -0.5;
+  /*letter-spacing: -0.1em;*/
+  width: 30px;
+  display: inline-block;
+  margin-left: 4em;
+  margin-top: -1em;
+}
+
+/*form {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.icon {
+  display: inline-block;
+  width: 100px;
+  margin-right: 10px;
+}*/
+
+#add_me {
+  color: #000;
+  letter-spacing: 0.5em;
+  font-weight: 550;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  background-color: #00d1e5;
+  border:1.5px solid #2196f3;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding:0 10px;
+  width: 100px;
+  margin-left: 19em;
+}
+.text_filine {
+  margin-bottom: 5px;
+}
+/*弹窗*/
+div.cover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  border-style: 23px solid red;
+}
+
+div.hidden_content {
+  /*display: none;*/
+  width: 700px;
+  height:400px;
+  position: absolute;
+  top:30%;
+  left: 25%;
+  background: #fff;
+  z-index: 100000;
+  border-radius: 25px;
+}
+div.hidden_content img{
+  float: right;
+  padding:10px 12px 0 0;
+}
+span.icon {
+  font-size: 18px;
+  font-family: "微软雅黑";
+  letter-spacing: 0.3em;
+  margin-right: 1.5em;
+  display: inline-block;
+  width: 141px;
+}
+/*input.op_content {
+  margin-right: 2em;
+}*/
+div.text_filine,div.su_bu{
+  position: relative;
+  padding-top: 30px;
+}
+div.text_filine {
+  margin-top: 1.5em;
+  margin-left: 10em;
+}
+
+.add_me {
+  width: 95px;
+  height: 30px;
+  font-size:18px;
+  letter-spacing: 0.3em;
+  background: #4dd0e1  ;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 500;
+  margin-right: 5em;
+}
+
+div.su_bu {
+  margin-left: 12em;
+  margin-top: 3em;
+}
+
+/*
+全选按钮
+*/
+.allChecked{
+  width:45px;
+  height:30px;
+  background-color:#5bc0de;
+  border:none;
+  border-radius:3px;
+  color:#FFF;
+  font-size:10pt;
+}
+#checkStart{
+  border:none;
+  padding-top:3px;
+  padding-bottom:3px;
+  padding-left:8px;
+  padding-right:8px;
+  border-radius:3px;
+  border:1px ridge #CCC;
+  color:#666;
+  }
+
+  /*表格*/
+.tableScrollBox {
+    width: 99%;
+    /* height: 300px; */
+    height: 380px;
+    overflow: scroll;
+    overflow-x: hidden;
+    border: 1px solid #EEE;
+}
+.top_title{
+  position: fixed;
+}
+div.list_content {
+  width:1000px;
+  display: inline-block;
+  margin-left: 3em;
+  height: 337px;
+}
+
+/*form#me_list {
+  width: 910px;
+}*/
+
+table.tableStyle {
+  width: 893px;
+}
+
+th.ch_box {
+  width:15px;
+}
+
+/*两个功能按钮*/
+div#two_button {
+  margin-top: 10px;
+  margin-left: 23em;
+}
+
+input.button_left,.button_right {
+  width: 95px;
+  height: 30px;
+  font-size:18px;
+  letter-spacing: 0.3em;
+  background: #4dd0e1  ;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 500;
+  margin-right: 5em;
+}
+
+/*div.text_twoline {
+  position: relative;
+}
+span.port {
+  margin-right: 15px;
+}
+
+span.hi_name {
+  width: 150px;
+}
+
+select {
+  width: 120px;
+  margin-right: 32px;
+}*/

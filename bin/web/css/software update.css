@@ -1,0 +1,251 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+div#main_content {
+  text-align: center;
+  width: 1040px;
+  height: 538px;
+  /*background-color: #ccc;*/
+  margin-left: 250px;
+}
+
+#main_content h1#title {
+  font-family: "微软雅黑";
+  font-size: 32px;
+  letter-spacing: 26px;
+  color:#00d1e5;
+  margin-top: 30px;
+}
+
+div.versions {
+  width: 1040px;
+  height:103.75px;
+  /*background-color: #d9dadb;*/
+  margin-bottom: 10px;
+  border-radius: 25px 25px 0 0 ;
+  margin-top: 25px;
+}
+
+div.update_file {
+  width:1040px;
+  height:103.75px;
+  /*background-color: #d9dadb;*/
+  margin-top: 10px;
+}
+
+div.latest_version {
+  width:1040px;
+  height:103.75px;
+  /*background-color: #d9dadb;*/
+  margin-top: 10px;
+}
+
+div.upgrade {
+  width:1040px;
+  height:103.75px;
+  /*background-color: #d9dadb;*/
+  margin-top: 10px;
+  border-radius: 0 0 25px 25px;
+}
+
+/*第一列*/
+
+div.ver_left>p{
+  position: relative;
+  top:35%;
+  left:10%;
+  width: 180px;
+  /*margin-right: 10px;*/
+  font-size: 24px;
+  padding：10px;
+  font-family: "微软雅黑";
+  font-weight: 700;
+  text-align: center;
+  background-color: #939491;
+  border-radius: 5px;
+  /*line-height: 60px;*/
+}
+
+div.ver_left {
+  width:220px;
+  height: 103.75px;
+  display: inline-block;
+  background-color: #d9dadb;
+  border-radius: 25px 0 0 0;
+  float: left;
+}
+
+div.ver_right {
+  width:810px;
+  height: 103.75px;
+  display: inline-block;
+  background-color: #d9dadb;
+  border-radius: 0 25px 0 0;
+}
+
+/*第二行*/
+div.up_left {
+  width:220px;
+  height: 103.75px;
+  display: inline-block;
+  background-color: #d9dadb;
+  /*border-radius: 25px 0 0 0;*/
+  float: left;
+}
+
+div.up_left>p{
+  position: relative;
+  top:35%;
+  left:10%;
+  width: 180px;
+  /*margin-right: 10px;*/
+  font-size: 24px;
+  padding：10px;
+  font-family: "微软雅黑";
+  font-weight: 700;
+  text-align: center;
+  background-color: #939491;
+  border-radius: 5px;
+  /*line-height: 60px;*/
+}
+
+div.up_right {
+  width:810px;
+  height: 103.75px;
+  display: inline-block;
+  background-color: #d9dadb;
+  /*border-radius: 0 25px 0 0;*/
+}
+
+input#file_up {
+  background-color:#fff ;
+  height:21px;
+  border: 1.5px solid #00d1e5;
+  margin-right: 6em;
+
+}
+
+input.bu {
+  width: 80px;
+  height: 27px;
+  background-color: #00d1e5;
+  font-size: 16px;
+  color:#fff;
+  border-radius: 5px;
+}
+
+div.up_rightcontent {
+  margin-top: 2.5em;
+}
+
+/*第三部分*/
+
+div.la_left {
+  width:220px;
+  height: 103.75px;
+  display: inline-block;
+  background-color: #d9dadb;
+  /*border-radius: 25px 0 0 0;*/
+  float: left;
+}
+
+div.la_left>p{
+  position: relative;
+  top:35%;
+  left:10%;
+  width: 180px;
+  /*margin-right: 10px;*/
+  font-size: 24px;
+  padding：10px;
+  font-family: "微软雅黑";
+  font-weight: 700;
+  text-align: center;
+  background-color: #939491;
+  border-radius: 5px;
+  /*line-height: 60px;*/
+}
+
+div.la_right {
+  width:810px;
+  height: 103.75px;
+  display: inline-block;
+  background-color: #d9dadb;
+  /*border-radius: 0 25px 0 0;*/
+}
+
+input.la_bu {
+  width: 200px;
+  height: 27px;
+  background-color: #00d1e5;
+  font-size: 16px;
+  color:#fff;
+  border-radius: 5px;
+  letter-spacing: 0.2em;
+  margin-top: 2.5em;
+}
+
+
+/*第四部分*/
+
+div.upg_left {
+  width:220px;
+  height: 103.75px;
+  display: inline-block;
+  background-color: #d9dadb;
+  border-radius: 0 0 0 25px;
+  float: left;
+}
+
+div.upg_left>p{
+  position: relative;
+  top:35%;
+  left:10%;
+  width: 180px;
+  /*margin-right: 10px;*/
+  font-size: 24px;
+  padding：10px;
+  font-family: "微软雅黑";
+  font-weight: 700;
+  text-align: center;
+  background-color: #939491;
+  border-radius: 5px;
+  /*line-height: 60px;*/
+}
+
+div.upg_right {
+  width:810px;
+  height: 103.75px;
+  display: inline-block;
+  background-color: #d9dadb;
+  border-radius: 0 0 25px 0;
+}
+
+div.up_right_left,div.up_right_right {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+div.up_right_left>p {
+  display: inline-block;
+  font-size: 24px;
+  padding：10px;
+  font-family: "微软雅黑";
+  font-weight: 500;
+  letter-spacing: 0.4em;
+  margin-right: 2em;
+}
+
+div.up_right_right>p {
+  display: inline-block;
+  font-size: 20px;
+  padding：10px;
+  font-family: "微软雅黑";
+  font-weight: 500;
+  margin-right: 2em;
+}
+
+div.upg_rightcontent {
+  margin-top: 2.5em;
+}

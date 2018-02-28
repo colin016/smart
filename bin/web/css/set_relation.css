@@ -1,0 +1,119 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+div#main_content {
+  width: 1040px;
+  height: 538px;
+  /*background-color: #ccc;*/
+  margin-left: 250px;
+}
+
+#main_content h1#title {
+  text-align: center;
+  font-family: "微软雅黑";
+  font-size: 32px;
+  letter-spacing: 26px;
+  color:#00d1e5;
+  margin-top: 30px;
+}
+
+div.main_content {
+  background-color: #d9dadb;
+  border-radius: 25px 25px 25px 25px;
+  height: 445px;
+  margin-top: 25px;
+  position: relative;
+}
+
+div#content {
+  position: absolute;
+  top:20px;
+  /*margin-top: 10px;*/
+  background:#FFF;
+  margin-left: 5em;
+  width:887px;
+  height: 343px;
+}
+
+span.setting {
+  display: inline-block;
+  text-align: right;
+  width: 270px;
+  font-size: 23px;
+  font-family: "微软雅黑";
+  margin-right: 3em;
+}
+
+p#max_num span.setting{
+  letter-spacing: 0.45em;
+}
+
+p#permit_num span.setting{
+  letter-spacing: 0.15em;
+}
+
+input.input {
+  width: 210px;
+  height: 22px;
+}
+
+div.line {
+  margin-bottom: 2em;
+  margin-left: 8em;
+}
+
+div.first_line {
+  margin-top: 3em;
+}
+
+span.choice {
+  display: inline-block;
+  text-align: right;
+  width: 200px;
+  font-size: 23px;
+  font-family: "微软雅黑";
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+span.anonymity {
+  letter-spacing: 0.32em;
+}
+
+label {
+  font-size: 22px;
+  font-family: "微软雅黑";
+  margin-right: 2em;
+}
+
+span#default {
+  font-size: 23px;
+  font-family: "微软雅黑";
+  margin-right: 5em;
+  letter-spacing: 1em;
+}
+
+input.default {
+  font-size: 20px;
+  font-family: "微软雅黑";
+  letter-spacing: 0.5em;
+  width: 85px;
+  height: 28px;
+  margin-right: 4em;
+  background: #e0e0e0 ;
+  border: 1px solid #000;
+  border-radius: 5px;
+
+}
+
+input#radio_input {
+  margin-right: 3em;
+  margin-left: 19em;
+}
+
+div#submit {
+  position: absolute;
+  top:24.5em;
+}

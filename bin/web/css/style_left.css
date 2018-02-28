@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul>li.menu {
+  background-color: #333333;
+  width:120px;
+  padding:1em 1em 1em 1em;
+  color:#fff;
+  font-size: 22px;
+  font-family: "微软雅黑"；
+  font-weight:800;
+  text-align: center;
+  border-radius: 2px;
+  /*position: relative;*/
+  /*display: inline-block;*/
+}
+
+
+ul li.menu ul.menu_son {
+  display: none;
+  position: absolute;
+  top:0;
+  left: 164px;
+}
+
+ul li.menu ul.menu_son li  {
+  width: 120px;
+  color:#fff;
+  padding:0.5em;
+  width: 150px;
+  height:44.5px;
+}
+
+ul li.menu:hover .menu_son{
+  background-color: #00d1e5;
+  font-size: 16px;
+  font-family: "微软雅黑"；
+  color：#fff;
+  display: block;
+}
+
+img.icon {
+  position: absolute;
+  top:12em;
+  left:10em;
+}
